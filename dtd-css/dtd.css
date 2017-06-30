@@ -222,7 +222,7 @@ input[type=button], input[type=submit], input[type=file], button {
     right: 0;
     bottom: 0;
     left: 0;
-    background: url(path/to/image) center 0 no-repeat;
+    background: url("../dtd-images/jdtc.jpg") center 0 no-repeat;
     background-size: cover;
 }
 .dtd-jdtc .jdtc-box{
