@@ -206,11 +206,24 @@ input[type=button], input[type=submit], input[type=file], button {
     overflow: hidden;
 }
 .dtd-jdtc{
+    position: relative;
+    overflow: hidden;
     width: 100%;
     height: 677px;
     background: url("../dtd-images/jdtc.jpg")no-repeat center 0;
     background-attachment: fixed;
     margin-top: 80px;
+}
+.dtd-jdtc:before {
+    content: ' ';
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(path/to/image) center 0 no-repeat;
+    background-size: cover;
 }
 .dtd-jdtc .jdtc-box{
     height: 646px;
