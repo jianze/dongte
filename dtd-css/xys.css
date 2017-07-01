@@ -210,10 +210,40 @@
 		height: auto;
 		box-sizing: border-box;
 	}
+	.dtd-jrtc .jrtc-box .jrtc-nbox .jrtc-zjbox h2{
+		font-size: 16px;
+		font-weight: 400;
+	}
+	.dtd-jrtc .jrtc-box .jrtc-nbox .jrtc-zjbox p .jrtc-yh{
+		font-size: 10px;
+	}
+	.dtd-jrtc .jrtc-box .jrtc-nbox .jrtc-zjbox a{
+		font-size: 10px;
+		height: .4rem;
+		line-height: .4rem;
+		bottom: 5.13%;
+	}
+	.dtd-jrtc .jrtc-box .jrtc-nbox .jrtc-nebox h3{
+		font-size: 14px;
+		margin-top: 1px;
+		font-weight: 400;
+	}
+	.dtd-jrtc .jrtc-box .jrtc-nbox .jrtc-nebox ul li h4,.dtd-jrtc .jrtc-box .jrtc-nbox .jrtc-nebox ul li p{
+		font-size: 12px;
+		font-weight: 400;
+	}
+	.dtd-jrtc .jrtc-box .jrtc-nbox .jrtc-nebox ul li p{
+		line-height: 13px;
+	}
 }
 @media screen and (min-width: 768px){
 	.hindden-sm{
 		display: none;
+	}
+}
+@media screen and (max-width: 1024px){
+	.dtd-jrtc .jrtc-box .jrtc-nbox{
+		background-size: 96%;
 	}
 }
 @media screen and (min-width: 1024px){

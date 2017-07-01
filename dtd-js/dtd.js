@@ -36,16 +36,20 @@ $(function(){
             Tcny.eq(i).addClass("jdtc-ydnb");
         });
     });
+    // 动态获取元素
     var Tcfz=$(".dtd-jdtc .jdtc-box .jdtc-nbox .jdtc-nb");
     var TCbf=$(".dtd-jdtc .jdtc-box .jdtc-nbox .jdtc-n .jdtc-nbx");
     var Tchbf=$(".dtd-jdtc .jdtc-box .jdtc-nbox .jdtc-n h3");
     var Tcnbf=$(".dtd-jdtc .jdtc-box .jdtc-nbox .jdtc-n .jdtc-cp");
+    var Jrtcy=$(".dtd-jrtc .jrtc-box .jrtc-nbox");
     function Dt() {
         var Dtk=Tcfz.width();
         TCbf.width(Dtk);
         var Dtkk=Tcn.width();
         Tchbf.width(Dtkk);
         Tcnbf.width(Dtk-Dtkk);
+        var Jrtcyw=Jrtcy.width();
+        Jrtcy.height(Jrtcyw*0.4456527);
     }
     Dt();
     window.onresize=Dt;
