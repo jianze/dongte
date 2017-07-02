@@ -239,6 +239,15 @@
 		padding: 0 15px;
 		box-sizing: border-box;
 	}
+	.dtd-jdtc{
+		background: url("../dtd-images/jdtc.jpg")no-repeat center 0;
+	}
+	.dtd-sxcl{
+		background: url("../dtd-images/sxcl.jpg") no-repeat center 0;
+	}
+	.dtd-lxwm{
+		background: url("../dtd-images/lxwm.jpg") no-repeat center 0;
+	}
 }
 @media screen and (min-width: 768px){
 	.hindden-sm{
