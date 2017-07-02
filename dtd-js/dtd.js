@@ -53,6 +53,13 @@ $(function(){
     }
     Dt();
     window.onresize=Dt;
+    // 返回顶部
+    var fanhui=$(".gudingzx .fanhuidingbu");
+    fanhui.click(function () {
+        var speed=200;//滑动的速度
+        $('body,html').animate({ scrollTop: 0 }, speed);
+        return false;
+    });
 });
 // 公司业务轮播
 var swiper = new Swiper('.swiper-container', {

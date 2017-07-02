@@ -235,6 +235,10 @@
 	.dtd-jrtc .jrtc-box .jrtc-nbox .jrtc-nebox ul li p{
 		line-height: 13px;
 	}
+	.dtd-lxwm .lxwm-box .lxwm-bd{
+		padding: 0 15px;
+		box-sizing: border-box;
+	}
 }
 @media screen and (min-width: 768px){
 	.hindden-sm{
